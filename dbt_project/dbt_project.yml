@@ -1,0 +1,26 @@
+name: pipeline
+version: "1.0.0"
+config-version: 2
+profile: pipeline
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  pipeline:
+    staging:
+      # Tables, not views: a bad cast then fails in the model itself
+      # instead of surfacing later as a confusing test error.
+      +materialized: table
+    marts:
+      +materialized: table
+
+seeds:
+  pipeline:
+    +column_types:
+      customer_id: integer
+      created_at: date

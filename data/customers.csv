@@ -1,0 +1,21 @@
+Customer ID,First Name,Last Name,E-mail Address,SignupDate,Country,Is Active
+1,Ana,Silva,ana.silva@example.com,2024-01-03,US,true
+2,Ben,Okafor,ben.okafor@example.com,2024-01-14,FR,true
+3,Chloe,Martin,chloe.martin@example.com,2024-01-25,DE,true
+4,Dev,Patel,dev.patel@example.com,2024-02-05,MA,true
+5,Emma,Novak,emma.novak@example.com,2024-02-16,GB,false
+6,Farid,Haddad,farid.haddad@example.com,2024-02-27,US,true
+7,Grace,Kim,grace.kim@example.com,2024-03-09,FR,true
+8,Hugo,Laurent,hugo.laurent@example.com,2024-03-20,DE,true
+9,Iris,Berg,iris.berg@example.com,2024-03-31,MA,true
+10,Jonas,Weber,jonas.weber@example.com,2024-04-11,GB,true
+11,Kemi,Adeyemi,kemi.adeyemi@example.com,2024-04-22,US,true
+12,Liam,Walsh,liam.walsh@example.com,2024-05-03,FR,true
+13,Mona,Rossi,mona.rossi@example.com,05/14/2024,DE,true
+14,Nils,Holm,nils.holm@example.com,2024-05-25,MA,false
+15,Omar,Aziz,omar.aziz@example.com,06/05/2024,GB,true
+16,Priya,Rao,priya.rao@example.com,2024-06-16,US,true
+17,Quinn,Byrne,quinn.byrne@example.com,06/27/2024,FR,true
+18,Rosa,Costa,rosa.costa@example.com,2024-07-08,DE,true
+19,Sami,Nasser,sami.nasser@example.com,07/19/2024,MA,true
+20,Tara,Lind,tara.lind@example.com,2024-07-30,GB,true

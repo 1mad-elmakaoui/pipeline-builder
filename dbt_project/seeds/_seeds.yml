@@ -1,0 +1,5 @@
+version: 2
+
+seeds:
+  - name: customer_master
+    description: Customer master list maintained by the CRM team.

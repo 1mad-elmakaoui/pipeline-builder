@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: One row per customer, from the customer master list.
+    columns:
+      - name: customer_id
+        description: Primary key of the customer.
+        data_tests:
+          - unique
+          - not_null
+      - name: full_name
+        description: First and last name.
+      - name: country_code
+        description: ISO 3166-1 alpha-2 country code.
+      - name: created_at
+        description: Date the customer record was created.
